@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 100;
+    font-style: normal; */
+}
+body{
+    background-color: black;
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.card{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(255,255,255,0.364);
+    margin-top: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    box-shadow: 2px 2px 20px black;
+    /* transition: height 0.5s ease; */
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.search input{
+    padding: 5px 10px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: none;
+}
+#btn{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    /* padding: 5px 5px; */
+}
+.weatherStatus{
+    display: none;
+}
+.w1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.w1 img{
+    width:200px ;
+    margin-top: -40px;
+}
+#temp{
+    font-size: 60px;
+    margin-top: -50px;
+}
+#city{
+    font-size: 40px;
+    margin-top: -20px;
+}
+.w2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+.humidity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.humidity img{
+    width: 70px;
+}
+#th{
+    font-size: 20px;
+}
+.wind{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.wind img{
+    width: 60px;
+}
+#tw{
+    font-size: 20px;
+}
+.shape{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(159,7,7);
+    position: absolute;
+}
+.shape:hover{
+    transform: translateX(10px);
+    transition:1s;
+}
+.shape1{
+    left: 1000px;
+    top: 300px;
+    border-top-left-radius:30% ;
+    border-top-right-radius:30% ;
+    border-bottom-left-radius:30% ;
+    border-bottom-right-radius:30% ;
+}
+.shape2{
+    width: 100px;
+    height: 100px;
+    left: 720px;
+    top: 590px;
+    border-top-left-radius:30% ;
+    border-top-right-radius:30% ;
+    border-bottom-left-radius:30% ;
+    border-bottom-right-radius:30% ;
+}
+#invalid{
+    font-size: 10px;
+    margin-left: 23px;
+    margin-top: 3px;
+    color: white;
+    display: none;
+}
