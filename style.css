@@ -128,9 +128,9 @@ body{
     border-bottom-right-radius:30% ;
 }
 #invalid{
-    font-size: 10px;
+    font-size: 20px;
     margin-left: 23px;
     margin-top: 3px;
-    color: white;
+    color: red;
     display: none;
 }
